@@ -4,8 +4,7 @@ public String aOrAn(String word) {
        (word.startsWith('e') ||
        (word.startsWith('i') ||
        (word.startsWith('o') ||
-       (word.startsWith('u') ||
-    )
+       (word.startsWith('u'))
         return 'an' + word;
     else
         return 'a' + word;
