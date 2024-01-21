@@ -3,4 +3,8 @@ public String nameFromEmail(String email) {
     String firstName = email.substringBefore('.');
     String lastName = email.substringBetween('.','@');
     firstName.toLowerCase();
+    lastName.toLowerCase();
+    firstName.capitalize();
+    lastName.capitalize();
+    return firstName + ' ' + lastName;
 }
