@@ -4,4 +4,10 @@ public String changeTimeFormat(String strTime) {
     String minute = strTime.substring(3,5);
     Integer hours = Integer.valueOf(hour);
     Integer minutes = Integer.valueOf(minute);
+    String midday;
+    if (hours < 12)
+        midday = 'AM';
+    else
+        midday = 'PM';
+    String time = hours + ':' + minutes + ' ' + midday;
 }
