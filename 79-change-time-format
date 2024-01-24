@@ -2,5 +2,6 @@ public String changeTimeFormat(String strTime) {
     //code here
     String hour = strTime.substring(0,2);
     String minute = strTime.substring(3,5);
-    
+    Integer hours = Integer.valueOf(hour);
+    Integer minutes = Integer.valueOf(minute);
 }
