@@ -7,6 +7,6 @@ public Integer fibonacci(Integer n) {
         return 1;
     else
         for (Integer i = 3; i < n; i++)
-            Integer current = last1 + last2;
+            current = last1 + last2;
         return current;
 }
