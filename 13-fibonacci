@@ -2,5 +2,10 @@ public Integer fibonacci(Integer n) {
     //code here
     if (n == 1 || n == 2)
         return 1;
-    else return 0;
+    else
+        Interger current, last1, last2;
+        last1 = 1, last2 = 1;
+        for (Integer i = 3; i < n; i++)
+            current = last1 + last2;
+        return current;
 }
