@@ -9,5 +9,5 @@ public String changeTimeFormat(String strTime) {
         midday = 'AM';
     else
         midday = 'PM';
-    String time = hours + ':' + minutes + ' ' + midday;
+    String times = hours + ':' + minutes + ' ' + midday;
 }
