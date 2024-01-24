@@ -10,4 +10,5 @@ public String changeTimeFormat(String strTime) {
     else
         midday = 'PM';
     String times = hours + ':' + minutes + ' ' + midday;
+    return times;
 }
