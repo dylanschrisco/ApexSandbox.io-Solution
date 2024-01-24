@@ -3,7 +3,6 @@ public String changeTimeFormat(String strTime) {
     String hour = strTime.substringBefore(':');
     String minute = strTime.substringAfter(':');
     Integer hours = Integer.valueOf(hour);
-    Integer minutes = Integer.valueOf(minute);
     String midday;
     if (hours < 12)
         midday = 'AM';
