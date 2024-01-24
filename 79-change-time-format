@@ -11,6 +11,6 @@ public String changeTimeFormat(String strTime) {
         return hour + ':' + minute + ' PM';
     else
         hours -= 12;
-        hour = String.valueOf(hours2).leftPad(2,'0');
+        hour = String.valueOf(hours).leftPad(2,'0');
         return hour + ':' + minute + ' PM';
 }
